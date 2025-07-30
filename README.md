@@ -1,7 +1,24 @@
-# C++11
+# C++14/11
 
 ## Обзор
 
+### C++14
+C++14 включает следующие новые языковые возможности:
+- [binary literals](CPP14.md/#binary-literals)
+- [generic lambda expressions](CPP14.md/#generic-lambda-expressions)
+- [lambda capture initializers](CPP14.md/#lambda-capture-initializers)
+- [return type deduction](CPP14.md/#return-type-deduction)
+- [decltype(auto)](CPP14.md/#decltypeauto)
+- [relaxing constraints on constexpr functions](CPP14.md/#relaxing-constraints-on-constexpr-functions)
+- [variable templates](CPP14.md/#variable-templates)
+- [[[deprecated]] attribute](CPP14.md/#deprecated-attribute)
+
+C++14 включает следующие новые библиотечные возможности:
+- [user-defined literals for standard library types](CPP14.md/#user-defined-literals-for-standard-library-types)
+- [compile-time integer sequences](CPP14.md/#compile-time-integer-sequences)
+- [std::make_unique](CPP14.md/#stdmake_unique)
+
+### C++11
 C++11 включает следующие новые языковые возможности:
 - [move semantics](CPP11.md/#move-semantics)
 - [variadic templates](CPP11.md/#variadic-templates)
