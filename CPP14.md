@@ -10,7 +10,7 @@ C++14 включает следующие новые языковые возмо
 - [decltype(auto)](#decltypeauto)
 - [relaxing constraints on constexpr functions](#relaxing-constraints-on-constexpr-functions)
 - [variable templates](#variable-templates)
-- [[[deprecated]] attribute](#deprecated-attribute)
+- [\[\[deprecated\]\] attribute](#deprecated-attribute)
 
 C++14 включает следующие новые библиотечные возможности:
 - [user-defined literals for standard library types](#user-defined-literals-for-standard-library-types)
@@ -148,7 +148,7 @@ template<class T>
 constexpr T e  = T(2.7182818284590452353);
 ```
 
-### [[[deprecated]] attribute
+### [\[\[deprecated\]\] attribute
 C++14 вводит атрибут `[[deprecated]]`, позволяющий указать, что тот или иной блок кода (функция, класс и т.д.) является устаревшим и может вызвать предупреждение при компиляции. Если указана причина, она будет включена в предупреждение.
 ```c++
 [[deprecated]]
