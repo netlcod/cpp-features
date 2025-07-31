@@ -1,6 +1,45 @@
-# C++14/11
+# C++17/14/11
 
 ## Обзор
+
+### C++17
+C++17 включает следующие новые языковые возможности:
+- [template argument deduction for class templates](CPP17.md/#template-argument-deduction-for-class-templates)
+- [declaring non-type template parameters with auto](CPP17.md/#declaring-non-type-template-parameters-with-auto)
+- [folding expressions](CPP17.md/#folding-expressions)
+- [new rules for auto deduction from braced-init-list](CPP17.md/#new-rules-for-auto-deduction-from-braced-init-list)
+- [constexpr lambda](CPP17.md/#constexpr-lambda)
+- [lambda capture this by value](CPP17.md/#lambda-capture-this-by-value)
+- [inline variables](CPP17.md/#inline-variables)
+- [nested namespaces](CPP17.md/#nested-namespaces)
+- [structured bindings](CPP17.md/#structured-bindings)
+- [selection statements with initializer](CPP17.md/#selection-statements-with-initializer)
+- [constexpr if](CPP17.md/#constexpr-if)
+- [utf-8 character literals](CPP17.md/#utf-8-character-literals)
+- [direct-list-initialization of enums](CPP17.md/#direct-list-initialization-of-enums)
+- [\[\[fallthrough\]\], \[\[nodiscard\]\], \[\[maybe_unused\]\] attributes](CPP17.md/#fallthrough-nodiscard-maybe_unused-attributes)
+- [\_\_has\_include](CPP17.md/#\_\_has\_include)
+- [class template argument deduction](CPP17.md/#class-template-argument-deduction)
+
+C++17 включает следующие новые библиотечные возможности:
+- [std::variant](CPP17.md/#stdvariant)
+- [std::optional](CPP17.md/#stdoptional)
+- [std::any](CPP17.md/#stdany)
+- [std::string_view](CPP17.md/#stdstring_view)
+- [std::invoke](CPP17.md/#stdinvoke)
+- [std::apply](CPP17.md/#stdapply)
+- [std::filesystem](CPP17.md/#stdfilesystem)
+- [std::byte](CPP17.md/#stdbyte)
+- [splicing for maps and sets](CPP17.md/#splicing-for-maps-and-sets)
+- [parallel algorithms](CPP17.md/#parallel-algorithms)
+- [std::sample](CPP17.md/#stdsample)
+- [std::clamp](CPP17.md/#stdclamp)
+- [std::reduce](CPP17.md/#stdreduce)
+- [prefix sum algorithms](CPP17.md/#prefix-sum-algorithms)
+- [gcd and lcm](CPP17.md/#gcd-and-lcm)
+- [std::not_fn](CPP17.md/#stdnot_fn)
+- [string conversion to/from numbers](CPP17.md/#string-conversion-tofrom-numbers)
+- [rounding functions for chrono durations and timepoints](CPP17.md/#rounding-functions-for-chrono-durations-and-timepoints)
 
 ### C++14
 C++14 включает следующие новые языковые возможности:
